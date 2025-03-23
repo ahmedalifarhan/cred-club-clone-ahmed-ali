@@ -1,14 +1,27 @@
 /* src/styles/_global.scss */
+@use "./videoBackground"; // Background video styles
+@use "./navbar"; // Background video styles
+@use "./HeroSection"; // Background video styles
+@use "./VideoComponent"; // Background video styles
+@use "./ScrollableImagesSection"; // Background video styles
+@use "./FullScreenVideoSection"; // Background video styles
+@use "./VideoSection"; // Background video styles
+@use "./ImageScrollSection"; // Background video styles
+@use "./footer"; // Background video styles
+// @import "./navbar"; // Navbar styles (currently commented out)
+@use "./variables";
+@use "./mixins";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+$font-family: "Arial", sans-serif;
 
 html,
 body {
   height: 100%;
-  font-family: $font-family;
+  $font-family: "Arial", sans-serif;
 }
 
 body {

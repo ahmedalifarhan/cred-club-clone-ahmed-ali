@@ -1,21 +1,6 @@
 /* src/styles/main.scss */
-@import "./variables"; // Import variables like colors, fonts, etc.
-@import "./mixins"; // Import reusable code blocks for styling
-@import "./global"; // Global styles for the site
-@import "./videoBackground"; // Background video styles
-@import "./navbar"; // Background video styles
-@import "./HeroSection"; // Background video styles
-@import "./VideoComponent"; // Background video styles
-@import "./ScrollableImagesSection"; // Background video styles
-@import "./FullScreenVideoSection"; // Background video styles
-@import "./VideoSection"; // Background video styles
-@import "./ImageScrollSection"; // Background video styles
-@import "./footer"; // Background video styles
-// @import "./navbar"; // Navbar styles (currently commented out)
-@use "./variables";
-@use "./mixins";
-@use "./global";
 
+@use "./global";
 
 /* main.scss */
 
