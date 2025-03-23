@@ -7,7 +7,7 @@ The replication of the **Cred Club Cards** page has been successfully completed.
 ## 🚀 Live Preview
 
 You can check out the live version of the project here:  
-🔗 **[Live Demo](https://cred-club-clone-ahmed-ali.vercel.app/)**
+🔗 **[Live Demo](https://ahmed-ali-cred-club-clone.vercel.app/)**
 
 ## 📂 Repository
 
