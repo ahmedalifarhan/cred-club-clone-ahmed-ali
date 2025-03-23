@@ -12,9 +12,10 @@
 @import "./ImageScrollSection"; // Background video styles
 @import "./footer"; // Background video styles
 // @import "./navbar"; // Navbar styles (currently commented out)
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@use "./variables";
+@use "./mixins";
+@use "./global";
+
 
 /* main.scss */
 
