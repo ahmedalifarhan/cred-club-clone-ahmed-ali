@@ -18,7 +18,7 @@ The full source code is available on GitHub:
 
 - **React.js** ⚛️
 - **Next.js**
-- **Tailwind CSS** 🎨
+- **Tailwind CSS**
 - **Lucide Icons**
 
 ## 📌 Key Features
