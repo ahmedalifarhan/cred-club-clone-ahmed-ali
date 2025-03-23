@@ -1,0 +1,45 @@
+/* main.scss */
+
+/* Import the Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
+
+.hero-section {
+  position: relative;
+  height: 100vh; /* Set height to 100vh for the Hero Section to match the screen height */
+  color: white;
+  text-align: center;
+  background-color: #fff; /* Optional, if you want a white background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .hero-content {
+    position: relative;
+    text-align: center;
+    max-width: 800px;
+    padding: 0 20px;
+    font-family: "Inter", sans-serif;
+
+    .main-heading {
+      font-size: 4rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      color: #333; /* Dark color for text */
+
+      span {
+        font-weight: 400;
+      }
+    }
+
+    .subheading {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #555; /* Lighter color for subheading */
+      margin-bottom: 20px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

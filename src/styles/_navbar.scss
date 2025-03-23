@@ -1,0 +1,99 @@
+/* Navbar wrapper styling */
+.navbar-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent; /* Black background for navbar */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  color: white;
+}
+
+/* Toggle button styling */
+.nav-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35px;
+  height: 25px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+
+  .bar {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+  }
+
+  &.open .bar:nth-child(1) {
+    transform: rotate(45deg);
+    position: relative;
+    top: 8px;
+  }
+
+  &.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  &.open .bar:nth-child(3) {
+    transform: rotate(-45deg);
+    position: relative;
+    top: -8px;
+  }
+}
+
+//* Mobile menu styling */
+.mobile-menu {
+  position: fixed; /* Make the menu fixed */
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9); /* Black background for mobile menu */
+  color: white;
+  width: 100%; /* Adjusted width for side navigation */
+  height: 100vh; /* Full height of the screen */
+  padding-top: 80px; /* Space for the logo */
+  display: flex;
+  flex-direction: column; /* Stack menu items vertically */
+  align-items: center;
+  z-index: 5;
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+  transform: translateX(-100%); /* Initially off-screen */
+
+  /* Show the mobile menu when open */
+  &.open {
+    transform: translateX(0); /* Bring it on screen */
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  li {
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 24px; /* Font size of menu items */
+    font-weight: bold;
+    padding: 15px 20px;
+    transition: 0.3s ease-in-out;
+    color: #333;
+    border-bottom: 1px solid #333;
+    width: 20%;
+  }
+
+  li:hover {
+    color: #fff; /* Gradient hover effect */
+    padding-left: 25px; /* Indentation effect on hover */
+  }
+}

@@ -1,0 +1,17 @@
+/* src/styles/_global.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: $font-family;
+}
+
+body {
+  font-family: $font-family;
+  background-color: #f4f4f4;
+}

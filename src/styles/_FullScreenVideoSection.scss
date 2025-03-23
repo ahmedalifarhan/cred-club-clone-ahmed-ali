@@ -1,0 +1,18 @@
+/* main.scss */
+.fullscreen-video-section {
+  position: relative;
+  width: 100vw; /* Set the width to 100% of the viewport width */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  overflow: hidden; /* Prevent any overflow outside the section */
+}
+
+.fullscreen-video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%); /* Center the video horizontally */
+  width: 100%; /* Set video width to 100% */
+  height: 100%; /* Set video height to 100% */
+  object-fit: cover; /* Ensure the video covers the entire section */
+  z-index: -1; /* Keep the video behind other content */
+}

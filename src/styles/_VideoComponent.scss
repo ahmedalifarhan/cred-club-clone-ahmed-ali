@@ -1,0 +1,14 @@
+.video-container {
+  width: 100%;
+  height: 100vh; /* لضمان ملء الفيديو لعرض الصفحة بالكامل */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000; /* لإعطاء خلفية مظلمة للفيديو */
+}
+
+.video-element {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* لضمان تغطية الفيديو للعنصر بالكامل */
+}
