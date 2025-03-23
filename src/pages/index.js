@@ -58,14 +58,14 @@ const HomePage = () => {
 
           <div className="right-section">
             <p className="text">
-              at CRED, security isn't an afterthought. it's built into
+              at CRED, security isn&apos;t an afterthought. it&apos;s built into
               everything we do. your data is encrypted, monitored, and protected
               at every step. we follow PCI DSS v4.0, ISO 27001, and RBI
               guidelines, ensuring top-tier safety standards. your card data is
               never stored—tokenization and masking keep your details secure.
             </p>
             <p className="text">
-              there are no gaps, because we didn't leave any.
+              there are no gaps, because we didn&apos;t leave any.
             </p>
           </div>
         </div>
